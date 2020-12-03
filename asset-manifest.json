@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wisberg/movie-search.git/static/css/main.504fa7b3.chunk.css",
+    "main.js": "/wisberg/movie-search.git/static/js/main.e4702946.chunk.js",
+    "main.js.map": "/wisberg/movie-search.git/static/js/main.e4702946.chunk.js.map",
+    "runtime-main.js": "/wisberg/movie-search.git/static/js/runtime-main.97236d68.js",
+    "runtime-main.js.map": "/wisberg/movie-search.git/static/js/runtime-main.97236d68.js.map",
+    "static/js/2.c3abe311.chunk.js": "/wisberg/movie-search.git/static/js/2.c3abe311.chunk.js",
+    "static/js/2.c3abe311.chunk.js.map": "/wisberg/movie-search.git/static/js/2.c3abe311.chunk.js.map",
+    "index.html": "/wisberg/movie-search.git/index.html",
+    "static/css/main.504fa7b3.chunk.css.map": "/wisberg/movie-search.git/static/css/main.504fa7b3.chunk.css.map",
+    "static/js/2.c3abe311.chunk.js.LICENSE.txt": "/wisberg/movie-search.git/static/js/2.c3abe311.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97236d68.js",
+    "static/js/2.c3abe311.chunk.js",
+    "static/css/main.504fa7b3.chunk.css",
+    "static/js/main.e4702946.chunk.js"
+  ]
+}

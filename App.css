@@ -1,0 +1,150 @@
+
+
+*{
+  margin: 0; 
+  padding: 0; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100; 
+
+}
+
+
+.App {
+  text-align: center;
+  
+
+  
+}
+/*****************HEADERBAR********************/
+
+#header{
+  display: inline-flex;
+  justify-content: space-evenly;
+  position: fixed; 
+  float: top; 
+  top: 0; 
+  left:0; 
+  padding: 0; 
+  width: 100vw; 
+  background-color:lightblue; 
+  height: 50px; 
+  z-index: 1000; 
+  
+  
+}
+h1 {
+  font-size: 30px; 
+  color: dodgerblue;
+  margin-top: 5px; 
+  
+}
+
+
+.search-box{
+  margin-top: 5px; 
+}
+
+.btn{
+  order: 2; 
+  left: 150px; 
+  padding: 10px 10px; 
+  border-radius: 10px;
+  background-color: dodgerblue; 
+  opacity: 0.7;  
+  cursor: pointer; 
+  outline: none; 
+  border: none; 
+  margin-left: 3px; 
+  
+
+}
+.btn:hover{
+  opacity: 1;  
+  transition: 0.5s; 
+}
+
+input[type=text] {
+  padding: 5px; 
+  height: 25px; 
+  width: 150px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border-radius: 10px; 
+  outline: none; 
+  border: none; 
+  margin-right: 5px; 
+}
+input[type=text]:focus {
+  width: 200px;
+}
+
+
+/************DISPLAY MOVIE****************/
+
+.tempDisplay{
+  margin-top: 50vh; 
+}
+
+.no-movie{
+  margin-top: 50vh; 
+  font-size: 30px; 
+  color: dodgerblue;
+}
+
+
+#plot{
+  font-style: italic;
+  font-size: 20px; 
+  padding: 5px; 
+  margin-top: 10px; 
+}
+#title{
+  font-style: bold; 
+  font-size: 40px; 
+  padding: 10px; 
+  font-weight: 200; 
+}
+.movieForm{
+  display: inline-flex;
+  position:static;
+  left: 0; 
+  top: 0; 
+}
+
+.moviePoster{
+  position: static; 
+  height: 570px;
+  width: auto; 
+  padding: 5px;  
+  float: left; 
+
+}
+.movieInfo{
+  position: relative;
+  text-align: center; 
+  align-items: center;
+  font-size: 15px; 
+  margin-top: 65px; 
+  
+  
+}
+.cast{
+  height: 100px; 
+  overflow-y: auto;
+  margin-top: 5px;  
+  width: 250px; 
+  margin: auto; 
+
+}
+
+#castMembers{
+  display: inline;
+  list-style-type: none;
+  font-size: 10px; 
+  
+}
+
+.movieTrailer{
+  margin-top: 20px;
+  
+}
